@@ -1,0 +1,19 @@
+{
+  "name": "gpt-terminal",
+  "version": "1.0.0",
+  "description": "gpt-terminal",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davi Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.12",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
