@@ -19,7 +19,7 @@ const getMessageFromAPI = async (message) => {
         );
         return response.choices[0].text.trim();
     } catch(error) {
-        console.error(error);
+        console.log(error);
     }
 };
 
